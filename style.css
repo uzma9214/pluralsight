@@ -1,0 +1,142 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poetsen+One&display=swap');
+
+
+
+
+*{   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+}
+.main-container {
+    width: 100%;
+    height: 100vh;
+    background-color:black;
+    display: flex;
+     }
+.left{
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(35, 35, 37);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+    .right{
+        width: 50%;
+        height: 100vh;
+        background-image: url('./login-bg.jpg');
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-size: cover;
+        background-position: center;
+     }
+.right h1{
+    font-size: 50px;
+    color: white;
+    align-items: center;
+
+}
+.right h2{
+    font-size: 50px;
+    color: white;
+    align-items: center;
+}
+
+.right button{
+    width:50%;
+    height: 45px;
+    margin-top: 20px;
+    background-color: transparent; color: white;
+    border: 1px solid white;
+}
+.left img { width: 50%;
+}
+    
+.left label{ margin-right:200px;
+    margin-top: 15px;
+    color: white;
+    }
+    #psd{
+        margin-right: 230px;
+    }
+
+.left input{
+    width: 45%;
+    height: 28px;
+    background-color: transparent;
+    border: 1px solid white
+
+}
+.left button{
+    width: 45%;
+    height: 30px; 
+    background-color: rgb(13, 13, 129);
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+.left a{
+    text-decoration: none;
+    
+    color:  rgb(13, 13, 129);
+    line-height: 60px;
+}
+.left hr{ width: 60%;
+}
+
+
+#create-btn{
+
+    background-color:rgb(109, 105, 105);
+
+}
+.left p{
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+span{ width: 40%;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    }
+    .line{ width:1px;
+        height: 15px;
+        background-color: white;
+    }
+    .left span a{
+        color: white;
+}
+.left span a:hover{
+    background-color: rgb(13, 13, 129); 
+}
+
+
+/* reponsive css code */
+@media (max-width:768px){
+
+.main-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+    
+.left{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+
+
+
+
+}
